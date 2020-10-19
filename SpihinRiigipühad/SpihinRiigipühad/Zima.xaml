@@ -3,7 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SpihinRiigipühad.Zima">
   <!--Pages can be added as references or inline-->
-  <ContentPage Title="Jaanuar" />
-  <ContentPage Title="Veebruar" />
-  <ContentPage Title="Detsember" />
+    <ContentPage Title="Jaanuar">
+        <StackLayout>
+            <Label Text="Uusaasta on püha, mil tähistatakse uue kalendriaasta algust. Lääneriikides, kus kasutatakse Gregoriuse kalendrit, on uusaasta 1. jaanuaril. Eestis on 1. jaanuari kui uusaastat nimetatud ka nääripäevaks."/>
+            <Image Source="Jaanuari.jpg"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Veebruar">
+        <StackLayout>
+            <Label Text="Eesti Vabariigi aastapäev on 24. veebruaril, millega tähistatakse Eesti Vabariigi väljakuulutamist 1918. aasta 24. veebruaril. Sel päeval avaldati Tallinnas , milles kuulutati välja sõltumatu ja demokraatlik Eesti Vabariik. 24. veebruar on Eesti rahvuspüha ja iseseisvuspäev."/>
+            <Image Source="veebruari.jpg"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Detsember">
+        <StackLayout>
+            <Label Text="Jõululaupäev (ka: jõuluõhtu) on 24. detsember, päev enne esimest jõulupüha. Eestis on see päev riigipüha."/>
+            <Image Source="Detsember.jpg"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

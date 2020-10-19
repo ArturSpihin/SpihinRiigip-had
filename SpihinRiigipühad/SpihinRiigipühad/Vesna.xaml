@@ -3,7 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SpihinRiigipühad.Vesna">
   <!--Pages can be added as references or inline-->
-  <ContentPage Title="Marts" />
-  <ContentPage Title="Aprill" />
-  <ContentPage Title="Mai" />
+    <ContentPage Title="Marts">
+        <StackLayout>
+            <Label Text="Emakeelepäev on riiklik tähtpäev, mida tähistatakse 1996. aastast luuletaja Kristjan Jaak Petersoni sünniaastapäeval, 14. märtsil.
+Emakeelepäeva jaoks valiti Kristjan Jaak Petersoni sünnipäev, kuna Peterson oli üks esimesi eestikeelseid kirjanikke."/>
+            <Image Source="Marts.jpg"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Aprill">
+        <StackLayout>
+            <Label Text="Suur reede on kristlik püha, mil tähistatakse Jeesus Kristuse ristilöömist ja surma Kolgata mäel. See kuulub kokku rea teiste pühadega, mis seostuvad Jeesuse eluga. Suur reede eelneb ülestõusmispühadele ning võib langeda kokku juudiusu paasapühadega."/>
+            <Image Source="Aprill.jpg"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Mai">
+        <StackLayout>
+            <Label Text="Kevadpüha on Eesti riigipüha, mida peetakse 1. mail. Pühaga tähistatakse kevade saabumist.
+1. mai kui kevadpüha kattub nii rahvusvahelise töörahvapühaga kui ka Eesti rahvakalendri volbripäevaga."/>
+            <Image Source="Mai.jpg"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

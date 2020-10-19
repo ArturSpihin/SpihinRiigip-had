@@ -2,8 +2,23 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SpihinRiigipühad.Leto">
-  <!--Pages can be added as references or inline-->
-  <ContentPage Title="Juuni" />
-  <ContentPage Title="Juuli" />
-  <ContentPage Title="August" />
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Juuni">
+        <StackLayout>
+            <Label Text="Võidupüha on Eesti riigipüha, mida peetakse 23. juunil alates aastast 1934. Sellega tähistatakse Eesti võitu Võnnu lahingus Landesveeri üle 23. juunil 1919 ja see on ka , meenutamaks Lembitu päevil alanud lakkamatut võitlust eesti rahva olemasolu ja poliitilise vabaduse eest" FontSize="10"/>
+            <Image Source="pilt.jpg"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Juuli">
+        <StackLayout>
+            <Label Text="1. juuli on Bakuu inimeste ülemaailmne päev - puhkus, millel pole ametlikku staatust. See ei kuulu isegi Aserbaidžaani ametlike pühade hulka."/>
+            <Image Source="Juuli.jpg"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="August">
+        <StackLayout>
+            <Label Text="Taasiseseisvumispäev (ka iseseisvuse taastamise päev) on Eesti Vabariigi riigipüha, millega igal aastal 20. augustil tähistatakse Eesti Vabariigi de facto taastamist Eesti Vabariigi Ülemnõukogu otsusega Eesti riiklikust iseseisvusest, mis võeti Eesti Komiteega kooskõlastatult vastu Eesti Vabariigi Ülemnõukogu istungil 20. augustil 1991 kell 23.03."/>
+            <Image Source="August.jpg"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

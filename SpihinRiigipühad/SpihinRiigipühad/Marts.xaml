@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SpihinRiigipühad.Marts">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="emakeelepäev"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Emakeelepäev on riiklik tähtpäev, mida tähistatakse 1996. aastast luuletaja Kristjan Jaak Petersoni sünniaastapäeval, 14. märtsil.
+Emakeelepäeva jaoks valiti Kristjan Jaak Petersoni sünnipäev, kuna Peterson oli üks esimesi eestikeelseid kirjanikke."
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

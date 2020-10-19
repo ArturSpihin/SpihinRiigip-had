@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SpihinRiigipühad.Octoober">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Vastavalt varasemale teabele toimus 12.10.2020 Riigikogus Eesti V Omavalitsuspäeva (OVP) programmikomitee koosolek. Hea meel on märkida, et huvi OVP vastu on olnud jätkuvalt väga suur. Kava kohaselt täpsustati Kuressaares 17. augustil OVP programmitoimkonna poolt heaks kiidetud kava ning deklaratsiooni projekti (lisatud)."
+                   
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Omavalitsuspäev"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

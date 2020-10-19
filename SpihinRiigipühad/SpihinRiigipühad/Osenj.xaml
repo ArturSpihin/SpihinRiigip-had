@@ -3,7 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SpihinRiigipühad.Osenj">
   <!--Pages can be added as references or inline-->
-  <ContentPage Title="September" />
-  <ContentPage Title="Octoober" />
-  <ContentPage Title="November" />
+    <ContentPage Title="September" >
+        <StackLayout>
+            <Label Text="Vanavanemate päeva tähistatakse ka mujal maailmas. Nii näiteks seadustas president Jimmy Carter 1979. aastal oma allkirjaga vanavanemate päeva rahvuspühana Ameerika Ühendriikides. Ameeriklased tähistavad vanavanemate päeva tööpühale (Labor Day, tähistatakse septembri esimesel esmaspäeval) järgneval esimesel pühapäeval ehk tavaliselt samal päeval, mil eestlased. Vanavanemate päeva tähistatakse kas riikliku tähtpäevana või rahvuspühana ka Kanadas, Prantsusmaal, Itaalias, Poolas, Inglismaal. Kõik riigid tähistavad seda päeva erinevatel kalendrikuudel. Kui Eestis on tegemist ilmaliku tähtpäevaga, siis Poolas on vanavanemate päev seotud katoliku kiriku usupühaga."/>
+            <Image Source="September.jpg"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Octoober">
+        <StackLayout>
+            <Label Text="Vastavalt varasemale teabele toimus 12.10.2020 Riigikogus Eesti V Omavalitsuspäeva (OVP) programmikomitee koosolek. Hea meel on märkida, et huvi OVP vastu on olnud jätkuvalt väga suur. Kava kohaselt täpsustati Kuressaares 17. augustil OVP programmitoimkonna poolt heaks kiidetud kava ning deklaratsiooni projekti (lisatud)."/>
+            <Image Source="Octoober.jpg"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="November">
+        <StackLayout>
+            <Label Text="Katoliiklikus kirikukalendris kehtestati 1006. aastal 2. november hingedepäeva ehk usklike surnute mälestuspäevana."/>
+            <Image Source="November.jpg"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>
